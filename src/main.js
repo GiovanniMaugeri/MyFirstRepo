@@ -6,7 +6,6 @@ import App from './App'
 import 'vue-datetime/dist/vue-datetime.css'
 import { Datetime } from 'vue-datetime';
 
-Vue.component('datetime', Datetime);
 Vue.use(Datetime)
 
 Vue.config.productionTip = false
