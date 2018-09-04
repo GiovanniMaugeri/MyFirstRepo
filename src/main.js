@@ -3,10 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 // You need a specific loader for CSS files
+import Datetime from 'vue-datetime'
 import 'vue-datetime/dist/vue-datetime.css'
-import { Datetime } from 'vue-datetime';
-
 Vue.use(Datetime)
+
 
 Vue.config.productionTip = false
 
